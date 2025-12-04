@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    background:linear-gradient(-135deg, #c850c0, #4158d0);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+.maindivtop{
+    width: 1100px;
+    height: 708.8px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 177px 130px 33px 95px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+   gap: 20px;
+   
+}
+.imgdiv{
+    width: 316px;
+    height: 468.8px;
+    display: flex;
+    justify-content: center;
+}
+
+.memberlogindetail{
+    width: 290px;
+    height:82.8px ;
+    color:#333333;
+    font-size: 24px;
+    font-family:"Poppins", Arial, sans-serif;
+    font-weight: bold;
+    padding-bottom: 54px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.inputdiv{
+    width: 290px;
+    height: 50px;
+    border-radius: 50px;
+    border:none;
+    box-sizing: border-box;
+    background-color: #e6e6e6;
+    padding: 0px 30px 0px 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputdiv>input{
+    width: 200px;
+    border-radius: 1000px;
+    border: none;
+    background-color: #e6e6e6;
+    margin-left: 25px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+.inputdiv>input::placeholder{
+    font-size: 16px;
+    font-family: "Poppins", Arial, sans-serif;
+}
+.inputdiv>img{
+    width: 20px;
+    height:20px ;
+}
+.inputdiv2{
+    margin-top: 15px;
+    width: 310px;
+    height: 50px;
+    border-radius: 50px;
+    border:none;
+    box-sizing: border-box;
+    background-color: #e6e6e6;
+    padding: 0px 30px 0px 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputdiv2>input{
+    width: 200px;
+    border-radius: 1000px;
+    border: none;
+    background-color: #e6e6e6;
+    margin-left: 25px;
+    padding-left: 10px;
+    outline: none;
+    border: none ;
+}
+.inputdiv2>input::placeholder{
+    font-size: 16px;
+    font-family: "Poppins", Arial, sans-serif;
+}
+.inputdiv2>img{
+    width: 20px;
+    height:20px ;
+}
+.loginbutton{
+    width: 290px;
+    height: 50px;
+    border-radius: 1000px;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    background-color: #57bb46;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+.username{
+    width: 290px;
+    height: 36px;
+    font-family: 16px;
+    font-family: "Poppins", Arial, sans-serif;
+    padding-top: 12px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.txt1{
+    width: 45.13px;
+    height: 19px;
+    font-size: 13px;
+    font-family:"Poppins", Arial, sans-serif ;
+    color: #999999;
+}
+.text2{
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 13px;
+    width: 147.48px;
+    height: 19px;
+    color: #666666;
+}
+.lastblock{
+    width: 290px;
+    height: 160px;
+    font-size: 16px;
+    font-family: "Poppins", Arial, sans-serif ;
+    padding-top: 136px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.text3{
+    width: 155.89px;
+    height: 19px;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-family: "Poppins", Arial, sans-serif;
+    text-decoration: none;
+    color: #666666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+}
+.text3>img{
+    width: 13px;
+    height: 13px;
+}
+.imgdiv>img{
+    width:252.67px ;
+    height: 231.09px;
+    box-sizing: border-box;
+}
+#emailsmall{
+color: red;
+font-size: 14px;
+font-family: Roboto;
+padding-left: 35px;
+
+}
+.fa-eye{
+position: absolute;
+right: 355px;
+color: #333333;
+
+}
+#passwordsmall{
+    color: red;
+font-size: 14px;
+font-family: Roboto;
+padding-left: 35px;
+position: absolute;
+}
+#emaildiv{
+    width: 310px;
+}
+#emaildiv:hover{
+border: 2px solid rgb(95, 95, 95);
+}
+#emaildiv:hover{
+border: 2px solid rgb(95, 95, 95);
+}
+.inputdiv2:hover{
+    border: 2px solid rgb(95, 95, 95);
+}
+.loginbutton:hover{
+   background-color: #180b18;
+}
+.loginbutton{
+    width: 320px;
+}
+.memberimg:hover{
+animation-name: animateelement;
+animation-duration: 2s;
+animation-timing-function: ease-in-out;
+animation-direction: alternate;
+animation-delay: 0s;
+}
+@keyframes animateelement {
+    0%{
+
+    }
+    50%{
+
+    }
+    100%{
+        transform: scale(1.3);
+  
+    }
+}
+.text2:hover{
+color: #526a01;
+}
+.text3:hover{
+color: #526a01;
+}
